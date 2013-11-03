@@ -1,0 +1,168 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F238B14E-4BBB-4CF6-A332-F5D56A0DBB87}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="EnumDemo1\EnumDemo1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumDemo2\EnumDemo2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumDemo3\EnumDemo3.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumDemo4\EnumDemo4.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumDemo5\EnumDemo5.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumDemo6\EnumDemo6.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumDemo7\EnumDemo7.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumDemo8\EnumDemo8.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumDemo9\EnumDemo9.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumDemo10\EnumDemo10.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumDemo11\EnumDemo11.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EnumDemo12\EnumDemo12.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="EnumDemo1">
+        <MSBuild Projects="EnumDemo1\EnumDemo1.dproj"/>
+    </Target>
+    <Target Name="EnumDemo1:Clean">
+        <MSBuild Projects="EnumDemo1\EnumDemo1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo1:Make">
+        <MSBuild Projects="EnumDemo1\EnumDemo1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumDemo2">
+        <MSBuild Projects="EnumDemo2\EnumDemo2.dproj"/>
+    </Target>
+    <Target Name="EnumDemo2:Clean">
+        <MSBuild Projects="EnumDemo2\EnumDemo2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo2:Make">
+        <MSBuild Projects="EnumDemo2\EnumDemo2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumDemo3">
+        <MSBuild Projects="EnumDemo3\EnumDemo3.dproj"/>
+    </Target>
+    <Target Name="EnumDemo3:Clean">
+        <MSBuild Projects="EnumDemo3\EnumDemo3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo3:Make">
+        <MSBuild Projects="EnumDemo3\EnumDemo3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumDemo4">
+        <MSBuild Projects="EnumDemo4\EnumDemo4.dproj"/>
+    </Target>
+    <Target Name="EnumDemo4:Clean">
+        <MSBuild Projects="EnumDemo4\EnumDemo4.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo4:Make">
+        <MSBuild Projects="EnumDemo4\EnumDemo4.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumDemo5">
+        <MSBuild Projects="EnumDemo5\EnumDemo5.dproj"/>
+    </Target>
+    <Target Name="EnumDemo5:Clean">
+        <MSBuild Projects="EnumDemo5\EnumDemo5.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo5:Make">
+        <MSBuild Projects="EnumDemo5\EnumDemo5.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumDemo6">
+        <MSBuild Projects="EnumDemo6\EnumDemo6.dproj"/>
+    </Target>
+    <Target Name="EnumDemo6:Clean">
+        <MSBuild Projects="EnumDemo6\EnumDemo6.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo6:Make">
+        <MSBuild Projects="EnumDemo6\EnumDemo6.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumDemo7">
+        <MSBuild Projects="EnumDemo7\EnumDemo7.dproj"/>
+    </Target>
+    <Target Name="EnumDemo7:Clean">
+        <MSBuild Projects="EnumDemo7\EnumDemo7.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo7:Make">
+        <MSBuild Projects="EnumDemo7\EnumDemo7.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumDemo8">
+        <MSBuild Projects="EnumDemo8\EnumDemo8.dproj"/>
+    </Target>
+    <Target Name="EnumDemo8:Clean">
+        <MSBuild Projects="EnumDemo8\EnumDemo8.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo8:Make">
+        <MSBuild Projects="EnumDemo8\EnumDemo8.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumDemo9">
+        <MSBuild Projects="EnumDemo9\EnumDemo9.dproj"/>
+    </Target>
+    <Target Name="EnumDemo9:Clean">
+        <MSBuild Projects="EnumDemo9\EnumDemo9.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo9:Make">
+        <MSBuild Projects="EnumDemo9\EnumDemo9.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumDemo10">
+        <MSBuild Projects="EnumDemo10\EnumDemo10.dproj"/>
+    </Target>
+    <Target Name="EnumDemo10:Clean">
+        <MSBuild Projects="EnumDemo10\EnumDemo10.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo10:Make">
+        <MSBuild Projects="EnumDemo10\EnumDemo10.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumDemo11">
+        <MSBuild Projects="EnumDemo11\EnumDemo11.dproj"/>
+    </Target>
+    <Target Name="EnumDemo11:Clean">
+        <MSBuild Projects="EnumDemo11\EnumDemo11.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo11:Make">
+        <MSBuild Projects="EnumDemo11\EnumDemo11.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="EnumDemo12">
+        <MSBuild Projects="EnumDemo12\EnumDemo12.dproj"/>
+    </Target>
+    <Target Name="EnumDemo12:Clean">
+        <MSBuild Projects="EnumDemo12\EnumDemo12.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo12:Make">
+        <MSBuild Projects="EnumDemo12\EnumDemo12.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="EnumDemo1;EnumDemo2;EnumDemo3;EnumDemo4;EnumDemo5;EnumDemo6;EnumDemo7;EnumDemo8;EnumDemo9;EnumDemo10;EnumDemo11;EnumDemo12"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="EnumDemo1:Clean;EnumDemo2:Clean;EnumDemo3:Clean;EnumDemo4:Clean;EnumDemo5:Clean;EnumDemo6:Clean;EnumDemo7:Clean;EnumDemo8:Clean;EnumDemo9:Clean;EnumDemo10:Clean;EnumDemo11:Clean;EnumDemo12:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="EnumDemo1:Make;EnumDemo2:Make;EnumDemo3:Make;EnumDemo4:Make;EnumDemo5:Make;EnumDemo6:Make;EnumDemo7:Make;EnumDemo8:Make;EnumDemo9:Make;EnumDemo10:Make;EnumDemo11:Make;EnumDemo12:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
