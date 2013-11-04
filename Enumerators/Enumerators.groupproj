@@ -39,6 +39,9 @@
         <Projects Include="EnumDemo12\EnumDemo12.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="EnumDemo13\EnumDemo13.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -155,14 +158,23 @@
     <Target Name="EnumDemo12:Make">
         <MSBuild Projects="EnumDemo12\EnumDemo12.dproj" Targets="Make"/>
     </Target>
+    <Target Name="EnumDemo13">
+        <MSBuild Projects="EnumDemo13\EnumDemo13.dproj"/>
+    </Target>
+    <Target Name="EnumDemo13:Clean">
+        <MSBuild Projects="EnumDemo13\EnumDemo13.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EnumDemo13:Make">
+        <MSBuild Projects="EnumDemo13\EnumDemo13.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="EnumDemo1;EnumDemo2;EnumDemo3;EnumDemo4;EnumDemo5;EnumDemo6;EnumDemo7;EnumDemo8;EnumDemo9;EnumDemo10;EnumDemo11;EnumDemo12"/>
+        <CallTarget Targets="EnumDemo1;EnumDemo2;EnumDemo3;EnumDemo4;EnumDemo5;EnumDemo6;EnumDemo7;EnumDemo8;EnumDemo9;EnumDemo10;EnumDemo11;EnumDemo12;EnumDemo13"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="EnumDemo1:Clean;EnumDemo2:Clean;EnumDemo3:Clean;EnumDemo4:Clean;EnumDemo5:Clean;EnumDemo6:Clean;EnumDemo7:Clean;EnumDemo8:Clean;EnumDemo9:Clean;EnumDemo10:Clean;EnumDemo11:Clean;EnumDemo12:Clean"/>
+        <CallTarget Targets="EnumDemo1:Clean;EnumDemo2:Clean;EnumDemo3:Clean;EnumDemo4:Clean;EnumDemo5:Clean;EnumDemo6:Clean;EnumDemo7:Clean;EnumDemo8:Clean;EnumDemo9:Clean;EnumDemo10:Clean;EnumDemo11:Clean;EnumDemo12:Clean;EnumDemo13:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="EnumDemo1:Make;EnumDemo2:Make;EnumDemo3:Make;EnumDemo4:Make;EnumDemo5:Make;EnumDemo6:Make;EnumDemo7:Make;EnumDemo8:Make;EnumDemo9:Make;EnumDemo10:Make;EnumDemo11:Make;EnumDemo12:Make"/>
+        <CallTarget Targets="EnumDemo1:Make;EnumDemo2:Make;EnumDemo3:Make;EnumDemo4:Make;EnumDemo5:Make;EnumDemo6:Make;EnumDemo7:Make;EnumDemo8:Make;EnumDemo9:Make;EnumDemo10:Make;EnumDemo11:Make;EnumDemo12:Make;EnumDemo13:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

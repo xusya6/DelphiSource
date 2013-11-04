@@ -73,8 +73,6 @@ end;
 { TMyClass }
 
 constructor TMyClass.Create;
-var
-  i: Integer;
 begin
   // Заполняем данными для теста
   SetLength(FData, 6);
