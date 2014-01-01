@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\Folder\shell\OpenCmd]
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmd]
+
+[-HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\CopyAsPath]
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\CopyAsPathMenu]
+@="{f3d06e7c-1e45-4a26-847e-f9fcdee59be0}"
+

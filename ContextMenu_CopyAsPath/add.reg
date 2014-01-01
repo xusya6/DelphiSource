@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+; Для каталога
+[HKEY_CLASSES_ROOT\Folder\shell\OpenCmd]
+@="Открыть консоль здесь"
+
+[HKEY_CLASSES_ROOT\Folder\shell\OpenCmd\command]
+@="cmd.exe /k pushd %L"
+
+; Для пустого места в открытом каталоге
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmd]
+@="Открыть консоль здесь"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmd\command]
+@="cmd.exe /k pushd %V"
+
+; Скрыть пункт "Копировать как путь" который появляется по кнопке shift
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\CopyAsPathMenu]
+@=""
+
+; Добавить новый "Копировать как путь"
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\CopyAsPath]
+@="Копировать как путь"
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shell\CopyAsPath\Command]
+@="nircmd.exe clipboard set \"%1\""
